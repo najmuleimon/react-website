@@ -20,8 +20,8 @@ const SocialMedia = () => {
                         maxWidth="1191px"
                         centered
                     />
-                    <div class="table-responsive">
-                        <table class="table table-bordered border-white shadow-sm">
+                    <div className="table-responsive">
+                        <table className="table table-bordered border-white shadow-sm">
                             <thead>
                                 <tr>
                                 <th scope="col">Source</th>
@@ -35,7 +35,7 @@ const SocialMedia = () => {
                                 <th scope="col">F.T. ROAS</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-group-divider">
+                            <tbody className="table-group-divider">
                                 {
                                     data.map(({id, source, ad, cost, sales, firstTimeCustomers, revenue, roas, cac, FTRoas}) => (
                                         <tr key={id}>

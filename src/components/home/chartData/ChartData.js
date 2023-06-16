@@ -43,8 +43,8 @@ const ChartData = () => {
                     <div className="col-lg-6">
                         <div className="text-center">
                             <h4>Facebook data</h4>
-                            <div class="table-responsive">
-                                <table class="table table-bordered border-white shadow-sm">
+                            <div className="table-responsive">
+                                <table className="table table-bordered border-white shadow-sm">
                                     <thead>
                                         <tr>
                                         <th scope="col">Ad name</th>
@@ -52,7 +52,7 @@ const ChartData = () => {
                                         <th scope="col">ROAS</th>
                                         </tr>
                                     </thead>
-                                    <tbody class="table-group-divider">
+                                    <tbody className="table-group-divider">
                                         {
                                             facebookData.map(({id, adName, orders, roas}) => (
                                                 <tr key={id}>
@@ -70,8 +70,8 @@ const ChartData = () => {
                     <div className="col-lg-6">
                         <div className="text-center">
                             <h4>Logoipsum data</h4>
-                            <div class="table-responsive">
-                                <table class="table table-bordered border-white shadow-sm">
+                            <div className="table-responsive">
+                                <table className="table table-bordered border-white shadow-sm">
                                     <thead>
                                         <tr>
                                         <th scope="col">Ad name</th>
@@ -79,7 +79,7 @@ const ChartData = () => {
                                         <th scope="col">ROAS</th>
                                         </tr>
                                     </thead>
-                                    <tbody class="table-group-divider">
+                                    <tbody className="table-group-divider">
                                         {
                                             logoData.map(({id, adName, orders, roas}) => (
                                                 <tr key={id}>

@@ -17,7 +17,7 @@ const Features = () => {
                     <div className="row gutter-y-24">
                         {
                             features.map((item) => (
-                                <div className="col-md-6 col-lg-4">
+                                <div key={item.id} className="col-md-6 col-lg-4">
                                     <FeatureCard key={item.id} data={item}/>
                                 </div>
                             ))

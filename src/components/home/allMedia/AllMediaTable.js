@@ -10,8 +10,8 @@ const AllMediaTable = () => {
     }, [])
 
   return (
-    <div class="table-responsive">
-        <table class="table table-bordered border-white shadow-sm">
+    <div className="table-responsive">
+        <table className="table table-bordered border-white shadow-sm">
             <thead>
                 <tr>
                 <th scope="col">Date</th>
@@ -27,7 +27,7 @@ const AllMediaTable = () => {
                 <th scope="col">Week 8</th>
                 </tr>
             </thead>
-            <tbody class="table-group-divider">
+            <tbody className="table-group-divider">
                 {
                     allData.map(({id, date, users, week0, week1, week2, week3, week4, week5, week6, week7, week8}) => (
                         <tr key={id}>
