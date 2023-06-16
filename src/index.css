@@ -260,3 +260,27 @@ select::-ms-expand {
     font-size: 16px;
   }
 }
+
+/* ==================== video modal ==================== */
+
+.video-modal .modal-content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-modal .close-btn {
+  top: 20px;
+  right: 20px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  z-index: 10;
+  background: var(--primary);
+}
+
+.video-modal .close-btn .close-icon {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* video modal end */
