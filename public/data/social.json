@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "source": "Youtube",
+        "ad": "Male_18+_UGC_Video",
+        "cost": "2567.00",
+        "sales" : "120",
+        "firstTimeCustomers" : "90",
+        "revenue" : "10800.00",
+        "roas" : "4.21",
+        "cac" : "28.52",
+        "FTRoas" : "3.16"
+    },
+    {
+        "id": "2",
+        "source": "Adwords",
+        "ad": "US_Generic_Search",
+        "cost": "1233.00",
+        "sales" : "98",
+        "firstTimeCustomers" : "71",
+        "revenue" : "5880.00",
+        "roas" : "4.77",
+        "cac" : "17.48",
+        "FTRoas" : "3.43"
+    },
+    {
+        "id": "3",
+        "source": "Adwords",
+        "ad": "SKU2343_shoppong",
+        "cost": "3120.00",
+        "sales" : "150",
+        "firstTimeCustomers" : "127",
+        "revenue" : "14700.00",
+        "roas" : "4.71",
+        "cac" : "24.55",
+        "FTRoas" : "3.99"
+    },
+    {
+        "id": "4",
+        "source": "Facebook",
+        "ad": "All_25+_Static_split_screen",
+        "cost": "5400.00",
+        "sales" : "145",
+        "firstTimeCustomers" : "111",
+        "revenue" : "11600.00",
+        "roas" : "2.15",
+        "cac" : "48.54",
+        "FTRoas" : "1.65"
+    },
+    {
+        "id": "5",
+        "source": "Instagram",
+        "ad": "W_25+_Static_split_screen",
+        "cost": "3210.00",
+        "sales" : "280",
+        "firstTimeCustomers" : "177",
+        "revenue" : "23800.00",
+        "roas" : "7.41",
+        "cac" : "18.17",
+        "FTRoas" : "4.68"
+    },
+    {
+        "id": "6",
+        "source": "TikTok",
+        "ad": "UGS_video_2",
+        "cost": "3100.00",
+        "sales" : "120",
+        "firstTimeCustomers" : "110",
+        "revenue" : "7080.00",
+        "roas" : "2.28",
+        "cac" : "28.14",
+        "FTRoas" : "2.10"
+    }
+]

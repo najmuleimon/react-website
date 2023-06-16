@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "icon": "pie.svg",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "desc": "Convallis a cras semper auctor neque. Fringilla est ullamcorper eget nulla facilisi etiam dignissim, eiusmod tempor incididunt ut labore"
+    },
+    {
+        "id": "2",
+        "icon": "bar.svg",
+        "title": "Sed do eiusmod tempor incididunt ut labore ",
+        "desc": "Convallis a cras semper auctor neque. Fringilla est ullamcorper eget nulla facilisi etiam dignissim, eiusmod tempor incididunt ut labore"
+    },
+    {
+        "id": "3",
+        "icon": "line.svg",
+        "title": "Quis autem vel eum iure reprehenderit qui in ea voluptate",
+        "desc": "Convallis a cras semper auctor neque. Fringilla est ullamcorper eget nulla facilisi etiam dignissim, eiusmod tempor incididunt ut labore"
+    }
+]

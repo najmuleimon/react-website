@@ -1,13 +1,262 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --primary: #58BF73;
+  --text: #181F1B;
+  --medium-green: #93D1B5;
+  --dark-green: #64B992;
+  --light-green: #B4ECD2;
+  --yellow: #F6D45B;
+  --gray: #E3E3E3;
+  --ibm: 'IBM Plex Sans', sans-serif;
+  --roboto: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: 0;
+}
+
+button {
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+.clearfix {
+  clear: both;
+  display: block;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+@media (min-width: 1400px){
+  .container, 
+  .container-lg, 
+  .container-md, 
+  .container-sm, 
+  .container-xl, 
+  .container-xxl {
+    max-width: 1675px;
+  }
+}
+
+.gutter-y-24{
+  --bs-gutter-y: 24px
+}
+
+.transition{
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.bg-medium-green{
+  background-color: var(--medium-green) !important;
+}
+
+.bg-dark-green{
+  background-color: var(--dark-green) !important;
+}
+
+.bg-light-green{
+  background-color: var(--light-green) !important;
+}
+
+.bg-yellow{
+  background-color: var(--yellow) !important;
+}
+
+.fw-900{
+  font-weight: 900;
+}
+
+.text-primary{
+  color: var(--text) !important;
+}
+
+.bg-primary{
+  background: var(--primary) !important;
+}
+
+.border-text{
+  border: 1px solid var(--text);
+}
+
+.section-gap{
+  padding: 80px 0;
+}
+
+.primary-btn{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 33px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-align: center;
+}
+
+.section-title h2{
+  font-size: 51px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.section-title h2 span{
+  font-weight: 900;
+}
+
+.section-title p{
+  font-size: 24px;
+  color: var(--text);
+  opacity: 0.7;
+  padding-top: 18px;
+}
+
+
+.table thead tr th{
+  background: var(--gray);
+  border-bottom: 0;
+  padding: 24px 16px 24px 16px;
+  text-align: center;
+  border: 0 !important;
+  font-size: 18px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.table th:first-child{
+  border-radius:10px 0 0 10px;
+}
+
+.table th:last-child{
+  border-radius:0 10px 10px 0;
+}
+
+.table-group-divider {
+  border-top: 0 !important;
+}
+
+.table tbody tr td{
+  padding: 24px 16px;
+  text-align: center;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background: var(--light-green);
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 1199px){
+  .section-gap{
+    padding: 40px 0;
+  }
+
+  .section-title h2{
+    font-size: 32px;
+  }
+
+  .section-title p{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .section-gap{
+    padding: 24px 0;
+  }
+
+  .section-title h2{
+    font-size: 24px;
+  }
+
+  .section-title p{
+    font-size: 16px;
+  }
+
+  .table thead tr th,
+  .table tbody tr td{
+    font-size: 16px;
+  }
 }
