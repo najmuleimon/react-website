@@ -529,6 +529,10 @@ footer .content ul li a{
   color: var(--text);
 }
 
+footer .content ul li a:hover{
+  color: var(--primary);
+}
+
 footer .content ul li:not(:last-child){
   margin-bottom: 10px;
 }
